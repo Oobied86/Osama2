@@ -18,6 +18,3 @@ document.querySelectorAll('nav ul li a').forEach(link => {
         }
     });
 });
-
-document.getElementById('upload-form').addEventListener('submit', function(event) {
-    event
