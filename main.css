@@ -31,26 +31,42 @@ body {
 h2 {
     font-size: 2em;
     font-weight: 700;
+    border: 2px solid #333;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 p {
     font-size: 1.5em;
     font-weight: 400;
+    border: 2px solid #333;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+    display: inline-block;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #333;
+    border: 2px solid #333;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
 }
 
 .hidden {
@@ -68,4 +84,9 @@ nav ul li a {
     border: 2px solid #333;
     border-radius: 10px;
     pointer-events: none; /* لمنع التنزيل والنسخ */
+}
+
+footer p {
+    font-size: 1em;
+    margin-top: 20px;
 }
