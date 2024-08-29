@@ -15,3 +15,9 @@ document.querySelectorAll('nav ul li a').forEach(link => {
             if (target) {
                 target.classList.remove('hidden');
             }
+        }
+    });
+});
+
+document.getElementById('upload-form').addEventListener('submit', function(event) {
+    event
