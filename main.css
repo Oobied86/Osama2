@@ -35,7 +35,7 @@ h2 {
     padding: 10px;
     background-color: #f8f8f8;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 40px; /* تعديل المسافة إلى 40 بكسل */
 }
 
 p {
@@ -45,7 +45,7 @@ p {
     padding: 10px;
     background-color: #f8f8f8;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 40px; /* تعديل المسافة إلى 40 بكسل */
 }
 
 nav ul {
@@ -90,4 +90,13 @@ nav ul li a {
 footer p {
     font-size: 1em;
     margin-top: 20px;
+}
+
+#upload-form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#upload-form input[type="file"] {
+    margin-bottom: 10px;
 }
