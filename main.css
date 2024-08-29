@@ -1,36 +1,29 @@
 body {
     font-family: 'Ruqaa', sans-serif;
-    background: url('background.jpg') no-repeat center center fixed;
+    background: url('background.gif') no-repeat center center fixed;
     background-size: cover;
     color: #333;
 }
 
 .header-background {
-    background: url('header-background.jpg') no-repeat center center;
-    background-size: cover;
+    background: rgba(255, 255, 255, 0.8);
     padding: 20px;
+    text-align: center;
 }
 
 .footer-background {
-    background: url('footer-background.jpg') no-repeat center center;
-    background-size: cover;
+    background: rgba(255, 255, 255, 0.8);
     padding: 20px;
+    text-align: center;
 }
 
 .title {
     font-size: 2.5em;
-    text-align: center;
     margin-top: 20px;
-}
-
-.welcome {
-    text-align: center;
-    margin: 20px;
 }
 
 nav ul {
     list-style-type: none;
-    text-align: center;
     padding: 0;
 }
 
@@ -44,11 +37,8 @@ nav ul li a {
     color: #333;
 }
 
-section {
-    margin: 20px;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
+.hidden {
+    display: none;
 }
 
 .work-gallery {
