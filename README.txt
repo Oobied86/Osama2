@@ -1,26 +1,12 @@
 Hyperspace by HTML5 UP
-html5up.net | @ajlkn
-personal and commercial use under the CCA 3.0 license (html5up.net/license)
-So I've had the wireframe for this particular design kicking around for 
+# السامعي للدهانات والديكور
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+هذا الموقع مخصص لعرض خدمات وأعمال السامعي للدهانات والديكور. يحتوي الموقع على معلومات عن الشركة، الخدمات المقدمة، ومعرض للأعمال السابقة.
 
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+## الملفات
+- elements.html: يحتوي على العناصر الأساسية المستخدمة في الموقع.
+- fontawesome-all.min.css: ملف CSS لأيقونات FontAwesome.
+- generic.html: صفحة عامة تحتوي على معلومات عن الشركة.
+- index.html: الصفحة الرئيسية للموقع.
+- main.css: ملف CSS الرئيسي لتنسيق الموقع.
+- noscript.css: ملف CSS لتنسيق الموقع في حالة تعطيل JavaScript.
