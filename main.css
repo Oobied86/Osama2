@@ -91,12 +91,3 @@ footer p {
     font-size: 1em;
     margin-top: 20px;
 }
-
-#upload-form {
-    margin-top: 20px;
-    text-align: center;
-}
-
-#upload-form input[type="file"] {
-    margin-bottom: 10px;
-}
