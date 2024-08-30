@@ -101,29 +101,6 @@
     <input type="file" id="imageInput" accept="image/*">
     <img id="displayImage" src="" alt="Uploaded Image" style="display:none;">
     <script src="script.js"></script>
-document.getElementById('imageInput').addEventListener('change', function(event) {
-    const file = event.target.files[0];
-    const reader = new FileReader();
-
-    reader.onload = function(e) {
-        const imageData = e.target.result;
-        localStorage.setItem('uploadedImage', imageData);
-        displayImage(imageData);
-    };
-
-    reader.readAsDataURL(file);
-});
-
-function displayImage(imageData) {
-    const imgElement = document.getElementById('displayImage');
-    imgElement.src = imageData;
-    imgElement.style.display = 'block';
-}
-
-window.onload = function() {
-    const storedImage = localStorage.getItem('uploadedImage');
-    if (storedImage) {
-        displayImage(storedImage);
     }
 };
 </body>
