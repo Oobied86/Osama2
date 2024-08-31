@@ -1,0 +1,16 @@
+[build]
+  functions = "netlify/functions"
+
+[[functions]]
+  name = "my-function"
+  memory = 1024
+  timeout = 10
+  region = "us-east-2"
+  runtime = "nodejs14.x"
+
+[[functions]]
+  name = "my-background-function"
+  memory = 1024
+  timeout = 900
+  region = "us-east-2"
+  runtime = "nodejs14.x"
