@@ -1,0 +1,14 @@
+[build]
+  edge_functions = "netlify/edge-functions"
+
+[[edge_functions]]
+  name = "my-edge-function"
+  path = "/path-to-your-function"
+  cache = true
+  runtime = "deno"
+
+[[edge_functions]]
+  name = "my-other-edge-function"
+  path = "/another-path-to-your-function"
+  cache = false
+  runtime = "deno"
