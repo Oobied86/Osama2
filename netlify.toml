@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/old-path"
+  to = "/new-path"
+  status = 301
+  force = false
+  query = { path = "path" }
+  conditions = { Language = ["en"], Country = ["US"], Role = ["admin"] }
+  headers = { "X-Frame-Options" = "DENY" }
+  signed = "API_SECRET_KEY"
